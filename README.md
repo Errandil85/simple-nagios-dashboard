@@ -13,12 +13,13 @@ Setup is very simple, only PHP 5 is required. No database or whatsoever.
 ### Installation
 
 - Extract code on Nagios Server
+- Install php-json
 - Edit `$statusFile` in `json.php` to point to the location of your nagios status.dat file
 - Install cronjob to generate JSON file:  
 
 
 	    # /etc/cron.d/nagios-json
-	    * * * * * root /usr/bin/php5 /var/www/json.php > /var/www/nagios.json.tmp; cp /var/www/nagios.json.tmp /var/www/nagios.json
+	    * * * * * root /usr/bin/php /var/www/json.php > /var/www/nagios.json.tmp; cp /var/www/nagios.json.tmp /var/www/nagios.json
 
 
 - Extract code on webserver

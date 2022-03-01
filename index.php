@@ -80,7 +80,8 @@ require_once("./functions.php");
         </div>
         <br />
         <div class="row text-center">
-                <span>Simple Nagios Dashboard by <a href="https://raymii.org">Remy van Elst (code)</a> and <a href="https://github.com/JobV">Job van der Voort (design)</a>.</span>
+                <!-- <span>Simple Nagios Dashboard by <a href="https://raymii.org">Remy van Elst (code)</a> and <a href="https://github.com/JobV">Job van der Voort (design)</a>.</span> -->
+                <span>Nagios <a href="./nagios" target="_blank">login</a>.</span>
         </div>
 
     </div>

@@ -19,8 +19,8 @@ $title = "Service Status Dashboard";
 $organization = "My Company";
 $support_url = "https://support.mycompany.org";
 $json_url = "https://monitoring.mycompany.org/nagios.json";
-$nagios_url = "https://monitoring.mycompany.org/nagios3/";
-$extinfo_url = "https://monitoring.mycompany.org/cgi-bin/nagios3/extinfo.cgi";
+$nagios_url = "https://monitoring.mycompany.org/nagios/";
+$extinfo_url = "https://monitoring.mycompany.org/cgi-bin/nagios/extinfo.cgi";
 
 # for a list of available themes: http://www.bootstrapcdn.com/bootswatch/
 $dashboard_theme = "united";
